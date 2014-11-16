@@ -15,6 +15,10 @@
             android:name=".SendBigUpActivity"
             android:label="@string/title_activity_send_big_up" >
         </activity>
+        <activity
+            android:name=".StreamingActivity"
+            android:label="@string/title_activity_streaming" >
+        </activity>
     </application>
 
 </manifest>
