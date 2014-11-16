@@ -10,4 +10,9 @@
     <string name="title_activity_profile">ProfileActivity</string>
     <string name="title_activity_leaderboard">LeaderboardActivity</string>
 
+    <string name="button_send">^BU</string>
+    <string name="button_stream">ST</string>
+    <string name="button_my">ME</string>
+    <string name="button_leaderboard">LB</string>
+    <string name="button_home">Home</string>
 </resources>
