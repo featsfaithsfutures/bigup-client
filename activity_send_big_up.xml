@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE96C"
+    >
+    <LinearLayout
+        android:id="@+id/tweet_section"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:background="#89FFA2"
+
+        android:layout_centerVertical="true"
+        android:paddingTop="50dp"
+
+        >
+        <EditText
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:hint="Who u tweetin @ ?"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/ic_tweet_confirm"
+          />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ></FrameLayout>
+</RelativeLayout>
